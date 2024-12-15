@@ -1,0 +1,33 @@
+/* components/nav.module.css */
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  padding: 1rem;
+  background-color: #0070f3;
+  position: fixed; /* Keep navbar fixed at the top */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navList {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navList li {
+  margin: 0;
+}
+
+.navList a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navList a:hover {
+  text-decoration: underline;
+}
